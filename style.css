@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background-color: white ;
+    position: fixed;
+    top: 0;
+}
+.left > span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.middle a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: rgb(81, 81, 81);
+}
+.middle a:hover{
+    color: rgb(158, 63, 253);
+    transition: 300ms;
+}
+.myBtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(158, 63, 253);
+    font-size: 18px;
+}
+.myBtn:hover{
+    background-color: rgb(22, 22, 63);
+    transition: 500ms;
+}
+.section1{
+    background: url(./images/first-background-img.webp) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 650px;
+
+}
+.section1 > h1{
+    font-size: 100px;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.section1 >p{
+    font-size: 25px;
+    margin-left: 100px;
+    width: 450px;
+    color: rgb(104, 95, 109);
+    line-height:40px;
+}
+.learnBtn{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.section2{
+    width: 100%;
+    height: 600px;
+}
+.section2 > .top{
+    text-align: center;
+    margin-top: 80px;
+}
+.section2 .top p{
+    color:rgb(158, 63, 253);
+    font-size: 16px;
+}
+.section2 .top h3{
+    font-size: 40px;
+    width: 500px;
+    margin-left: 33%;
+    margin-top: 30px;
+}
+.section2 >.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.bottom > .first{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+}
+.section2 .bottom > .second{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+}
+.section2 .bottom > .third{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    text-align: center;
+}
+.p1{
+    color:rgb(158, 63, 253);
+    font-weight: bold;
+}
+.p2{
+    font-size: 20px;
+    color: rgb(104, 95, 109);
+    line-height:30px;
+}
+.section3{
+    background-color: rgb(22,22,63);
+    color: white;
+    width: 100%;
+    height: 520px;
+    text-align: center;
+}
+.section3 > h2{
+    font-size: 40px;
+    top: 30px;
+    line-height: 220px;
+}
+.section3 > .numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+}
+.section3 .numbers>.n1{
+    display: flex;
+    flex-direction: column;
+
+}
+.section3 .numbers .n1> .num{
+    font-weight: bold;
+    font-size: 80px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
